@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://c8d588jkiuodt"]
+
+[ext_resource type="Script" uid="uid://i2te3a41gan7" path="res://text_stuff.gd" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dxyh1bxdur4n2" path="res://Sign.png" id="1_wtcfe"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y32ns"]
+load_path = "res://.godot/imported/MainMenuV2.NONAME.png-9801b2bbb9568c1df93fb9e0885fa75f.ctex"
+
+[node name="Everything" type="Node2D" unique_id=782710252]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1351059384]
+position = Vector2(995.00006, 50)
+scale = Vector2(6.258203, 6.2582035)
+texture = SubResource("CompressedTexture2D_y32ns")
+
+[node name="TextStuff" type="Node2D" parent="." unique_id=842727083]
+script = ExtResource("1_0e48y")
+
+[node name="Sign" type="Sprite2D" parent="TextStuff" unique_id=46334741]
+position = Vector2(946.5, 385.25)
+scale = Vector2(21.578125, 21.578125)
+texture = ExtResource("1_wtcfe")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextStuff" unique_id=1044456788]
+offset_left = 345.50006
+offset_top = 305.25
+offset_right = 1552.5
+offset_bottom = 511.25
+theme_override_font_sizes/normal_font_size = 75
+
+[node name="GeminiRequest" type="HTTPRequest" parent="TextStuff" unique_id=888635296]
