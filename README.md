@@ -1,6 +1,10 @@
 # How to get it working :
 
-First of all, you need to configure a Google Gemini API key, its fairly easy just google it, once you have got your own API key you need to insert it here :
+First of all you need to click the Green Code button and download the master project by clicking Download Zip, then load the project and go into the code (there is only one main script)
+
+<img src="AssetsForReadMe/Screenshot 2026-03-26 003000.png" width="700"/>
+
+Now, you need to configure a Google Gemini API key, its fairly easy just google it, once you have got your own API key you need to insert it here :
 
 <img src="AssetsForReadMe/Screenshot 2026-03-24 224245.png" width="700"/>
 
